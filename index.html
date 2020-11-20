@@ -6,6 +6,69 @@
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <main class="content">
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>            
+        </header>
+        <div class="form-wrapper">
+            <form class="survey-form">
+                <div class="form-row">
+                    <label for="txt-name">Name</label>
+                    <input type="text" name="txtName" id="txt-name" class="text-box" placeholder="Enter your name">
+                </div>
+                <div class="form-row">
+                    <label for="txt-email">Email</label>
+                    <input type="text" name="txtEmail" id="txt-email" class="text-box" placeholder="Enter your email">
+                </div>
+                <div class="form-row">
+                    <label for="txt-age">Age (optional)</label>
+                    <input type="text" name="txtAge" id="txt-age" class="text-box" placeholder="Age">
+                </div>
+                <div class="form-row">
+                    <label for="cbx-role">Which option best describes your current role?</label>
+                    <select name="cbxRole" id="cbx-role" class="combo-box">
+                        <option>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-job">Full time job</option>
+                        <option value="full-time-learner">Full time learner</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="radio" name="rdbRecommend" id="rdb-recommend-definitely" class="radio-button">
+                    <label for="txtName">Definitely</label> <br>
+                    <input type="radio" name="rdbRecommend" id="rdb-recommend-maybe" class="radio-button">
+                    <label for="txtName">Maybe</label> <br>
+                    <input type="radio" name="rdbRecommend" id="rdb-recommend-notsure" class="radio-button">
+                    <label for="txtName">Not sure</label>
+                </div>
+                <div class="form-row">
+                    <label for="cbx-features">What is your favorite feature of freeCodeCamp?</label>
+                    <select name="cbxFeatures" id="cbx-features" class="combo-box">
+                        <option value="frontend">Front-end Projects</option>
+                        <option value="backend">Back-end Projects</option>
+                        <option value="data">Data Visualization</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="open-source">Open Source Community</option>
+                        <option value="gitter">Gitter Help Rooms</option>
+                        <option value="videos">Videos</option>
+                        <opition value="meetups">City Meetups</opition>
+                        <option value="wiki">Wiki</option>
+                        <option value="forum">Forum</option>
+                        <option value="additional">Additional Courses</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="txta-comments">Any comments or suggestions?</label>
+                    <textarea name="txtaComments" id="txta-comments" class="text-area"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" name="btnSubmit" id="btn-submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
