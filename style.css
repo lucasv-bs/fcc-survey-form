@@ -5,3 +5,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {    
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background: url('img/linkedin-sales-navigator-YDVdprpgHv4-unsplash.jpg') no-repeat top left fixed;
+    background-size: cover;
+    
+}
+.main {    
+    margin: 0 auto;
+    width: 50%;
+}
+.header {
+    color: rgba(0,0,0,0.8);
+    margin-top: 3rem;
+    text-align: center;
+}
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+.header p {
+    font-style: italic;
+}
+.form-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;    
+    margin-top: 1.5rem;
+    padding: 2.5rem 2rem;    
+}
+div.form-row {
+    margin: 20px 0;
+}
+.form-row:first-child, .form-row:last-child {
+    margin-top: 0;
+}
+.form-row-label {
+    color: white;
+    display: inline-block;
+    padding: 5px 0;
+    width: 95%;
+}
+.form-row p {
+    color: white;
+    padding: 8px 0;
+}
+.text-box, .combo-box, .text-area, .btn {
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    padding: 0.7rem;
+    width: 100%;
+}
+.text-box, .combo-box, .text-area {
+    color: #495057;
+}
+.text-area {
+    font-family: inherit;
+}
+.btn {
+    background-color: #37af65;
+    color: white;
+}
